@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Star Coaching Center, Kurigram</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Using Hind Siliguri for Bengali text and Inter for English text */
+        body {
+            font-family: 'Hind Siliguri', 'Inter', sans-serif;
+        }
+        .english-font {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-600 english-font">
+                <span class="text-yellow-500">★★★</span> 3 Star Coaching Center
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600">আমাদের সম্পর্কে</a>
+                <a href="#features" class="text-gray-600 hover:text-indigo-600">আমাদের বৈশিষ্ট্য</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600">যোগাযোগ</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-indigo-600">আমাদের সম্পর্কে</a>
+            <a href="#features" class="block py-2 text-gray-600 hover:text-indigo-600">আমাদের বৈশিষ্ট্য</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-indigo-600">যোগাযোগ</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-indigo-600 text-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">3 Star Coaching Center, Kurigram</h1>
+                <p class="text-xl md:text-2xl text-indigo-200">শিক্ষার্থীদের স্বপ্নপূরণের নির্ভরযোগ্য ঠিকানা।</p>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">আমাদের সম্পর্কে</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-8"></div>
+                <p class="max-w-3xl mx-auto text-lg text-gray-700">
+                    ক্লাস ১-৮ পর্যন্ত মানসম্মত শিক্ষা, অভিজ্ঞ শিক্ষক, শান্তিপূর্ণ পরিবেশ, এবং মেধা যাচাই-আমাদের অঙ্গীকার। আমরা প্রতিটি শিক্ষার্থীর উপর বিশেষ নজর দিয়ে থাকি এবং তাদের সেরাটা বের করে আনতে সাহায্য করি।
+                </p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-4">আমাদের বৈশিষ্ট্য</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature Card 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-indigo-500 mb-4">📚</div>
+                        <h3 class="text-xl font-bold mb-2">মানসম্মত শিক্ষা</h3>
+                        <p class="text-gray-600">১ম থেকে ৮ম শ্রেণি পর্যন্ত প্রতিটি বিষয়ের উপর গুরুত্ব দিয়ে পাঠদান করা হয়।</p>
+                    </div>
+                    <!-- Feature Card 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-indigo-500 mb-4">👨‍🏫</div>
+                        <h3 class="text-xl font-bold mb-2">অভিজ্ঞ শিক্ষক</h3>
+                        <p class="text-gray-600">আমাদের রয়েছে একদল অভিজ্ঞ এবং নিবেদিতপ্রাণ শিক্ষক, যারা শিক্ষার্থীদের বন্ধুসুলভ।</p>
+                    </div>
+                    <!-- Feature Card 3 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-indigo-500 mb-4">🌿</div>
+                        <h3 class="text-xl font-bold mb-2">শান্তিপূর্ণ পরিবেশ</h3>
+                        <p class="text-gray-600">কোচিং সেন্টারের পরিবেশ পড়াশোনার জন্য অত্যন্ত মনোরম এবং শান্তিপূর্ণ।</p>
+                    </div>
+                    <!-- Feature Card 4 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-indigo-500 mb-4">📝</div>
+                        <h3 class="text-xl font-bold mb-2">নিয়মিত মেধা যাচাই</h3>
+                        <p class="text-gray-600">শিক্ষার্থীদের অগ্রগতির জন্য আমরা নিয়মিত পরীক্ষা এবং মেধা যাচাইয়ের ব্যবস্থা করি।</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">আমাদের সাথে যোগাযোগ করুন</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-8"></div>
+                <p class="text-lg text-gray-700 mb-4">ভর্তি বা অন্য যেকোনো তথ্যের জন্য নিচের ঠিকানায় যোগাযোগ করুন।</p>
+                <div class="max-w-md mx-auto bg-gray-100 p-8 rounded-lg shadow-md">
+                    <p class="text-xl font-semibold">3 Star Coaching Center</p>
+                    <p class="mt-2">📍 ঠিকানা: [আপনার ঠিকানা এখানে লিখুন], কুড়িগ্রাম।</p>
+                    <p class="mt-2">📞 মোবাইল: [আপনার মোবাইল নম্বর এখানে লিখুন]</p>
+                    <p class="mt-2">📧 ইমেইল: [আপনার ইমেইল এখানে লিখুন]</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 3 Star Coaching Center. All Rights Reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">Website designed to get you started.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
