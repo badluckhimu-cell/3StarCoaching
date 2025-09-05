@@ -33,7 +33,9 @@
             </div>
             <nav class="hidden md:flex space-x-6">
                 <a href="#about" class="text-gray-600 hover:text-indigo-600">আমাদের সম্পর্কে</a>
-                <a href="#features" class="text-gray-600 hover:text-indigo-600">আমাদের বৈশিষ্ট্য</a>
+                <a href="#features" class="text-gray-600 hover:text-indigo-600">বৈশিষ্ট্য</a>
+                <a href="#teachers" class="text-gray-600 hover:text-indigo-600">শিক্ষকগণ</a>
+                <a href="#gallery" class="text-gray-600 hover:text-indigo-600">গ্যালারী</a>
                 <a href="#contact" class="text-gray-600 hover:text-indigo-600">যোগাযোগ</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden flex items-center p-2">
@@ -43,7 +45,9 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white px-4 sm:px-6 pb-4 border-t">
             <a href="#about" class="block py-2 text-gray-600 hover:text-indigo-600">আমাদের সম্পর্কে</a>
-            <a href="#features" class="block py-2 text-gray-600 hover:text-indigo-600">আমাদের বৈশিষ্ট্য</a>
+            <a href="#features" class="block py-2 text-gray-600 hover:text-indigo-600">বৈশিষ্ট্য</a>
+            <a href="#teachers" class="block py-2 text-gray-600 hover:text-indigo-600">শিক্ষকগণ</a>
+            <a href="#gallery" class="block py-2 text-gray-600 hover:text-indigo-600">গ্যালারী</a>
             <a href="#contact" class="block py-2 text-gray-600 hover:text-indigo-600">যোগাযোগ</a>
         </div>
     </header>
@@ -104,7 +108,49 @@
                 </div>
             </div>
         </section>
+
+        <!-- Teachers Section -->
+        <section id="teachers" class="py-12 md:py-16 bg-white">
+            <div class="container mx-auto px-4 sm:px-6">
+                <h2 class="text-3xl font-bold text-center mb-4">আমাদের অভিজ্ঞ শিক্ষকগণ</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <!-- Teacher Card 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                        <img src="https://placehold.co/150x150/E2E8F0/4A5568?text=শিক্ষক" alt="Teacher Photo" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold">শিক্ষকের নাম</h3>
+                        <p class="text-indigo-600">বিষয়/পদবী</p>
+                    </div>
+                    <!-- Teacher Card 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                        <img src="https://placehold.co/150x150/E2E8F0/4A5568?text=শিক্ষক" alt="Teacher Photo" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold">শিক্ষকের নাম</h3>
+                        <p class="text-indigo-600">বিষয়/পদবী</p>
+                    </div>
+                    <!-- Teacher Card 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                        <img src="https://placehold.co/150x150/E2E8F0/4A5568?text=শিক্ষক" alt="Teacher Photo" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold">শিক্ষকের নাম</h3>
+                        <p class="text-indigo-600">বিষয়/পদবী</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-12 md:py-16 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6">
+                <h2 class="text-3xl font-bold text-center mb-4">ফটো গ্যালারী</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <img src="https://placehold.co/400x300/667EEA/FFFFFF?text=শ্রেণীকক্ষ" alt="Gallery Image" class="rounded-lg shadow-md w-full h-full object-cover">
+                    <img src="https://placehold.co/400x300/ED64A6/FFFFFF?text=ছাত্র-ছাত্রী" alt="Gallery Image" class="rounded-lg shadow-md w-full h-full object-cover">
+                    <img src="https://placehold.co/400x300/4FD1C5/FFFFFF?text=লাইব্রেরী" alt="Gallery Image" class="rounded-lg shadow-md w-full h-full object-cover">
+                    <img src="https://placehold.co/400x300/F6E05E/FFFFFF?text=অনুষ্ঠান" alt="Gallery Image" class="rounded-lg shadow-md w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
         <!-- Call to Action Section -->
         <section id="cta" class="py-12 md:py-16 bg-indigo-600">
             <div class="container mx-auto px-4 sm:px-6 text-center text-white">
@@ -114,17 +160,23 @@
         </section>
 
 
-        <!-- Contact Section -->
+        <!-- Contact and Map Section -->
         <section id="contact" class="py-12 md:py-16 bg-white">
-            <div class="container mx-auto px-4 sm:px-6 text-center">
-                <h2 class="text-3xl font-bold mb-4">আমাদের সাথে যোগাযোগ করুন</h2>
-                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-8"></div>
-                <p class="text-base sm:text-lg text-gray-700 mb-4">ভর্তি বা অন্য যেকোনো তথ্যের জন্য নিচের ঠিকানায় যোগাযোগ করুন।</p>
-                <div class="max-w-md mx-auto bg-gray-100 p-6 sm:p-8 rounded-lg shadow-md">
-                    <p class="text-lg sm:text-xl font-semibold english-font">3 Star Coaching Center</p>
-                    <p class="mt-2 text-sm sm:text-base">📍 ঠিকানা: টেক্সটাইল মোড়, সদর কুড়িগ্রাম</p>
-                    <p class="mt-2 text-sm sm:text-base">📞 যোগাযোগ: 0177312200</p>
-                    <p class="mt-2 text-sm sm:text-base">📧 ইমেইল: 3starCoaching@gmail.com</p>
+            <div class="container mx-auto px-4 sm:px-6">
+                <h2 class="text-3xl font-bold text-center mb-4">যোগাযোগ ও অবস্থান</h2>
+                <div class="w-24 h-1 bg-indigo-500 mx-auto mb-12"></div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Contact Info -->
+                    <div class="bg-gray-100 p-6 sm:p-8 rounded-lg shadow-md text-center md:text-left">
+                        <p class="text-lg sm:text-xl font-semibold english-font mb-4">3 Star Coaching Center</p>
+                        <p class="mt-2 text-sm sm:text-base">📍 ঠিকানা: টেক্সটাইল মোড়, সদর কুড়িগ্রাম</p>
+                        <p class="mt-2 text-sm sm:text-base">📞 যোগাযোগ: 01773122001</p>
+                        <p class="mt-2 text-sm sm:text-base">📧 ইমেইল: 3starCoaching@gmail.com</p>
+                    </div>
+                    <!-- Google Map -->
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.388837130286!2d89.6348983150257!3d25.80145498353501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2d3fc2a2e153b%3A0x8f2c6d8a32b695a!2sKurigram%20Textile%20Mills!5e0!3m2!1sen!2sbd!4v1662381156842!5m2!1sen!2sbd" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg shadow-md"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
